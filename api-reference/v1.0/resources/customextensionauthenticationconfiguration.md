@@ -11,7 +11,7 @@ doc_type: resourcePageType
 
 Namespace: microsoft.graph
 
-Abstract base type that exposes the configuration for the **authenticationConfiguration** property of the derived types that inherit from the [customCalloutExtension](customcalloutextension.md) abstract type. This abstract type is inherited by the [azureAdTokenAuthentication](../resources/azureadtokenauthentication.md) resource type.
+Abstract base type that exposes the configuration for the **authenticationConfiguration** property of the derived types that inherit from the [customCalloutExtension](customcalloutextension.md) abstract type. This abstract type is inherited by the azureAdPopTokenAuthentication resource type.
 
 ## Properties
 
