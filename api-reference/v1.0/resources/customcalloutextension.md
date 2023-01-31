@@ -15,7 +15,6 @@ An abstract type that defines the configuration for logic apps that can extend t
 
 This abstract type is inherited by:
 
-- [customAccessPackageWorkflowExtension](customaccesspackageworkflowextension.md)
 - [customTaskExtension](../resources/identitygovernance-customtaskextension.md)
 
 Inherits from [entity](entity.md).
