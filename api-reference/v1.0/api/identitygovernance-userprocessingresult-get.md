@@ -11,7 +11,7 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph.identityGovernance
 
-Get the user processing result of a [run](../resources/identitygovernance-run.md) object.
+Get the user processing result of a user processing result of a [run](../resources/identitygovernance-run.md).
 
 ## Permissions
 
@@ -112,7 +112,6 @@ Content-Type: application/json
 #### Request
 
 The following is an example of a request.
-
 <!-- {
   "blockType": "request",
   "name": "lifecycleworkflows_get_run_userprocessingresult"
