@@ -29,11 +29,6 @@ The following is a JSON representation of the resource.
 
 ``` json
 { 
-  "@odata.type": "#microsoft.graph.customExtensionAuthenticationConfiguration " ,
-  "source": "String",
-  "type": "String",
-  "data": {
-    "@odata.type": "#microsoft.graph.azureAdPopTokenAuthentication"
-  }
+  "@odata.type": "#microsoft.graph.customExtensionAuthenticationConfiguration "
 } 
 ```
