@@ -5941,12 +5941,12 @@ items:
             items:
             - name: Lifecycle management settings
               href: resources/identitygovernance-lifecyclemanagementsettings.md
-            - name: email settings
-              href: resources/emailsettings.md  
             - name: Get
               href: api/identitygovernance-lifecyclemanagementsettings-get.md
             - name: Update
               href: api/identitygovernance-lifecyclemanagementsettings-update.md
+            - name: email settings
+              href: resources/emailsettings.md    
         - name: Privileged Identity Management
           displayName: Privileged Identity Management, PIM, Identity Governance
           href: resources/privilegedidentitymanagementv3-overview.md
