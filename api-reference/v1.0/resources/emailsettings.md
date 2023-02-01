@@ -11,7 +11,7 @@ doc_type: resourcePageType
 
 Namespace: microsoft.graph
 
-Defines the email settings of emails sent from Lifecycle Workflows
+Defines the email settings for emails sent from Lifecycle Workflows
 
 ## Properties
 |Property|Type|Description|
