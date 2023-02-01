@@ -593,14 +593,6 @@
         {
           "Id": "3fc470ca-6490-4e9e-b681-a31593c2e2b3",
           "ApiChange": "Resource",
-          "ChangedApiName": "usersProcessingSummary",
-          "ChangeType": "Addition",
-          "Description": "Added the [usersProcessingSummary](https://learn.microsoft.com/en-us/graph/api/resources/identitygovernance-usersProcessingSummary?view=graph-rest-1.0) resource type.",
-          "Target": "usersProcessingSummary"
-        },
-        {
-          "Id": "3fc470ca-6490-4e9e-b681-a31593c2e2b3",
-          "ApiChange": "Resource",
           "ChangedApiName": "userSummary",
           "ChangeType": "Addition",
           "Description": "Added the [userSummary](https://learn.microsoft.com/en-us/graph/api/resources/identitygovernance-userSummary?view=graph-rest-1.0) resource type.",
