@@ -619,14 +619,6 @@
         {
           "Id": "c34adaa0-b7de-40d7-92a4-1abd8e37400a",
           "ApiChange": "Resource",
-          "ChangedApiName": "usersProcessingSummary",
-          "ChangeType": "Addition",
-          "Description": "Added the [usersProcessingSummary](https://learn.microsoft.com/en-us/graph/api/resources/identityGovernance-usersProcessingSummary?view=graph-rest-1.0) resource type.",
-          "Target": "usersProcessingSummary"
-        },
-        {
-          "Id": "c34adaa0-b7de-40d7-92a4-1abd8e37400a",
-          "ApiChange": "Resource",
           "ChangedApiName": "userSummary",
           "ChangeType": "Addition",
           "Description": "Added the [userSummary](https://learn.microsoft.com/en-us/graph/api/resources/identityGovernance-userSummary?view=graph-rest-1.0) resource type.",
@@ -765,7 +757,7 @@
           "ApiChange": "Method",
           "ChangedApiName": "createNewVersion",
           "ChangeType": "Addition",
-          "Description": "Added the [createNewVersion](https://learn.microsoft.com/en-us/graph/api/identitygovernance-workflow-createnewversion?view=graph-rest-1.0) method to the [workflow](https://learn.microsoft.com/en-us/graph/api/resources/workflow?view=graph-rest-1.0) resource.",
+          "Description": "Added the [createNewVersion](https://learn.microsoft.com/en-us/graph/api/identitygovernance-workflow-createnewversion?view=graph-rest-1.0) method to the [workflow](https://learn.microsoft.com/en-us/graph/api/resources/identitygovernance-workflow?view=graph-rest-1.0) resource.",
           "Target": "workflow"
         },
         {
@@ -773,7 +765,7 @@
           "ApiChange": "Method",
           "ChangedApiName": "restore",
           "ChangeType": "Addition",
-          "Description": "Added the [restore](https://learn.microsoft.com/en-us/graph/api/identitygovernance-workflow-restore?view=graph-rest-1.0) method to the [workflow](https://learn.microsoft.com/en-us/graph/api/resources/workflow?view=graph-rest-1.0) resource.",
+          "Description": "Added the [restore](https://learn.microsoft.com/en-us/graph/api/identitygovernance-workflow-restore?view=graph-rest-1.0) method to the [workflow](https://learn.microsoft.com/en-us/graph/api/resources/identitygovernance-workflow?view=graph-rest-1.0) resource.",
           "Target": "workflow"
         },
         {
@@ -805,7 +797,7 @@
           "ApiChange": "Method",
           "ChangedApiName": "summary",
           "ChangeType": "Addition",
-          "Description": "Added the [summary](https://learn.microsoft.com/en-us/graph/api/identitygovernance-userProcessingResult-summary?view=graph-rest-1.0) method to the [userProcessingResult](https://learn.microsoft.com/en-us/graph/api/resources/userProcessingResult?view=graph-rest-1.0) resource.",
+          "Description": "Added the [summary](https://learn.microsoft.com/en-us/graph/api/identitygovernance-userProcessingResult-summary?view=graph-rest-1.0) method to the [userProcessingResult](https://learn.microsoft.com/en-us/graph/api/resources/identitygovernance-userProcessingResult?view=graph-rest-1.0) resource.",
           "Target": "userProcessingResult"
         }
       ],
