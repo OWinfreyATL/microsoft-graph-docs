@@ -14,6 +14,7 @@ Namespace: microsoft.graph
 Defines the email settings for emails sent from Lifecycle Workflows
 
 ## Properties
+
 |Property|Type|Description|
 |:---|:---|:---|
 |senderDomain|String|The domain from which the email is being sent from.|
