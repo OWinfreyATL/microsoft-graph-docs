@@ -62,7 +62,6 @@ If successful, this method returns a `200 OK` response code and a [microsoft.gra
 
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "lifecycleworkflows_get_lifecyclemanagementsettings"
@@ -89,6 +88,11 @@ Content-Type: application/json
 
 {
     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identityGovernance/lifecycleWorkflows/settings/$entity",
-    "workflowScheduleIntervalInHours": 1
+    "workflowScheduleIntervalInHours": 1,
+    "emailSettings": {
+    "@odata.type": "microsoft.graph.emailSettings",
+        "senderDomain": "ContosoIndustries.net",
+        "useCompanyBranding": true
+  },
 }
 ```

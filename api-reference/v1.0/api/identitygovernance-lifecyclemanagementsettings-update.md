@@ -52,6 +52,7 @@ PATCH /identityGovernance/lifecycleWorkflows/settings
 |Property|Type|Description|
 |:---|:---|:---|
 |workflowScheduleIntervalInHours|Int32|The workflow schedule interval. Required.|
+|emailSettings|[microsoft.graph.emailSettings](../resources/emailsettings.md)|The settings for emails sent from email-specific tasks within a workflow. Required.|
 
 ## Response
 
@@ -73,7 +74,12 @@ Content-Type: application/json
 
 {
     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identityGovernance/lifecycleWorkflows/settings/$entity",
-    "workflowScheduleIntervalInHours": 3
+    "workflowScheduleIntervalInHours": 3,
+    "emailSettings": {
+    "@odata.type": "microsoft.graph.emailSettings",
+        "senderDomain": "ContosoIndustries.net",
+        "useCompanyBranding": true
+  },
 }
 ```
 

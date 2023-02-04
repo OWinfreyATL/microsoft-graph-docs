@@ -26,6 +26,7 @@ The settings of Azure AD Lifecycle Workflows in the tenant.
 |:---|:---|:---|
 |id|String|Identifier used for individually addressing Lifecycle Workflow settings.|
 |workflowScheduleIntervalInHours|Int32|The interval in hours at which all [workflows](../resources/identitygovernance-workflow.md) running in the tenant should be scheduled for execution. This interval has a minimum value of 1 and a maximum value of 24. The default value is 3 hours. |
+|emailSettings|[microsoft.graph.emailSettings](../resources/emailsettings.md)|Defines the settings for emails sent out from email-specific [tasks](../resources/identitygovernance-task.md) within workflows. Accepts 2 parameters<br><br>senderDomain- Defines the domain of who is sending the email. <br>useCompanyBranding- A boolean value that defines if company branding is to be used with the email.|
 
 ## Relationships
 
@@ -45,6 +46,11 @@ The following is a JSON representation of the resource.
 ``` json
 {
     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#identityGovernance/lifecycleWorkflows/settings/$entity",
-    "workflowScheduleIntervalInHours": 1
+    "workflowScheduleIntervalInHours": 1,
+    "emailSettings": {
+    "@odata.type": "microsoft.graph.emailSettings",
+        "senderDomain": "(String)",
+        "useCompanyBranding": "(Boolean)"
+  },
 }
 ```
