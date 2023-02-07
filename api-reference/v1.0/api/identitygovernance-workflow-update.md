@@ -98,3 +98,52 @@ Content-length: 454
 ``` http
 HTTP/1.1 204 No Content
 ```
+
+## Example 2: Customize an email sent out by a task
+
+### Request
+
+The following is an example of a request
+
+``` http
+PATCH https://graph.microsoft.com/v1.0/identityGovernance/lifecycleWorkflows/workflows/156ce798-1eb6-4e0a-8515-e79f54d04390
+Content-Type: application/json
+
+
+{
+    "description": "Configure new hire tasks for onboarding employees on their first day",
+    "displayName": "Australia Onboard new hire employee",
+    "isEnabled": true,
+    "isSchedulingEnabled": false,
+    "arguments": [
+       {
+        "name": "cc",
+        "value": "b47471b9-af8f-4a5a-bfa2-b78e82398f6e, a7a23ce0-909b-40b9-82cf-95d31f0aaca2"
+        },
+        {
+        "name": "customSubject",
+        "value": "Welcome to the organization {{userDisplayName}}!"
+        },
+        {
+        "name": "customBody",
+        "value": "Welcome to our organization {{userGivenName}} {{userSurname}}. \nFor more information, reach out to your manager {{managerDisplayName}} at {{managerEmail}}."
+        },
+        {
+        "name": "locale",
+        "value": "en-us"
+        }, 
+]
+}
+```
+
+### Response
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+
+}
+-->
+``` http
+HTTP/1.1 204 No Content
+```
