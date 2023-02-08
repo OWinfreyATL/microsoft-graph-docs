@@ -6011,7 +6011,7 @@ items:
               href: api/accesspackageassignmentpolicy-update.md
             - name: Delete
               href: api/accesspackageassignmentpolicy-delete.md
-        - name: Lifecycle workflows (preview)
+        - name: Lifecycle workflows
           displayName: LCW, Identity Governance, Joiner, Mover, Leaver
           items:
           - name: Overview
