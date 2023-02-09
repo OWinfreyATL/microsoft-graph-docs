@@ -22,6 +22,8 @@ Inherits from  [customTaskExtensionCallbackConfiguration](../resources/identityg
 |Property|Type|Description|
 |:---|:---|:---|
 |timeoutDuration|Duration| Callback time out in ISO 8601 time duration. Accepted time durations are between five minutes to three hours. For example, PT5M for five minutes and PT3H for three hours. Inherited from [customTaskExtensionCallbackConfiguration](../resources/identitygovernance-customtaskextensioncallbackconfiguration.md).|
+|authorizedApps|microsoft.graph.application collection| Unique identifier for the application object. Inherited from [customExtensionCallbackConfiguration](../resources/customextensioncallbackconfiguration.md). |
+
 
 ## Relationships
 
@@ -38,6 +40,11 @@ The following is a JSON representation of the resource.
 ``` json
 {
   "@odata.type": "#microsoft.graph.identityGovernance.customTaskExtensionCallbackConfiguration",
-  "timeoutDuration": "String (duration)"
+  "timeoutDuration": "String (duration)",
+  "authorizedApps":[
+    {
+      "@odata.type": "microsoft.graph.application"
+    }
+] 
 }
 ```
