@@ -133,7 +133,6 @@ Content-Type: application/json
 The following is an example of a request.
 
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "lifecycleworkflows_list_run_select"
