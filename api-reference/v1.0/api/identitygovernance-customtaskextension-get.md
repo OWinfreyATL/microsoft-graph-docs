@@ -62,7 +62,6 @@ If successful, this method returns a `200 OK` response code and a [microsoft.gra
 
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "lifecycleworkflows_get_customtaskextension"
