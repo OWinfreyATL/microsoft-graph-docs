@@ -65,7 +65,6 @@ If successful, this action returns a `204 No Content` response code.
 
 The following is an example of a request.
 
-# [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
   "name": "lifecycleworkflows_taskprocessingresultthis.resume"
