@@ -11,7 +11,6 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph.identityGovernance
 
-
 Update the properties of a [workflow](../resources/identitygovernance-workflow.md) object.
 
 ## Permissions
