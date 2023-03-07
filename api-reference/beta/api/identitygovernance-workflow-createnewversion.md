@@ -135,6 +135,7 @@ The following is an example of the response
 HTTP/1.1 200 OK
 Content-Type: application/json
 
+
 {
     "workflow":{
         "description": "Configure new hire tasks for onboarding employees on their first day",
@@ -248,8 +249,8 @@ Content-length: 631
 }
 ```
 
-
 #### Response
+
 
 The following is an example of the response
 >**Note:** The response object shown here might be shortened for readability.
