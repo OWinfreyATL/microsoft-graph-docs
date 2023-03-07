@@ -17,7 +17,6 @@ This abstract type is inherited by:
 
 - [customTaskExtension](../resources/identitygovernance-customtaskextension.md)
 
-Inherits from [entity](entity.md).
 
 ## Methods
 
