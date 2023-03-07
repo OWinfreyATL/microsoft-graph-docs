@@ -174,7 +174,7 @@ Content-Type: application/json
 
 ### Example 2: Create a new version of a task with customized email
 
-### Request
+#### Request
 
 The following is an example of a request.
 
