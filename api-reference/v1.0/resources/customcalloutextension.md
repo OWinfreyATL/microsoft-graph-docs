@@ -31,7 +31,7 @@ None.
 |description|String|Description for the customCalloutExtension object.|
 |displayName|String|Display name for the customCalloutExtension object.|
 |endpointConfiguration|[customExtensionEndpointConfiguration](../resources/customextensionendpointconfiguration.md)|The type and details for configuring the endpoint to call the logic app's workflow.|
-|id|String|Identifier for the customCalloutExtension object. Inherited from [entity](../resources/entity.md).|
+|id|String|Identifier for the customCalloutExtension object. |
 
 ## Relationships
 None.
