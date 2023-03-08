@@ -27,8 +27,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 For delegated scenarios, the admin needs one of the following [Azure AD roles](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles):
 
-- Global administrator
-- Lifecycle workflows administrator
+- Lifecycle Workflows Administrator
 
 ## HTTP request
 
@@ -77,7 +76,7 @@ The following is an example of a request that creates a workflow with the follow
 + It runs for new users that are based in Australia, on their employeeHireDate.
 + Two tasks are carried out when the workflow runs: the user's account is enabled and a "Welcome" email is sent to the user.
 
-# [HTTP](#tab/http)
+
 <!-- {
   "blockType": "request",
   "name": "lifecycleworkflows_create_workflow_from_"
@@ -125,28 +124,6 @@ Content-Type: application/json
     ]
 }
 ```
-
-# [JavaScript](#tab/javascript)
-[!INCLUDE [sample-code](../includes/snippets/javascript/lifecycleworkflows-create-workflow-from--javascript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Java](#tab/java)
-[!INCLUDE [sample-code](../includes/snippets/java/lifecycleworkflows-create-workflow-from--java-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/lifecycleworkflows-create-workflow-from--go-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/lifecycleworkflows-create-workflow-from--powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [PHP](#tab/php)
-[!INCLUDE [sample-code](../includes/snippets/php/lifecycleworkflows-create-workflow-from--php-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
 
 ### Response
 
