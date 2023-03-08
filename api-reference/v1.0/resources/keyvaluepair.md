@@ -12,7 +12,7 @@ doc_type: resourcePageType
 Namespace: microsoft.graph
 
 Key-value pair for action parameters. The configuration of this resource is shared by the following objects:
-+ The **synchronizationJobSettings** property of [synchronizationJob](synchronization-synchronizationjob.md).
+
 + The **arguments** property of [Lifecycle Workflows tasks](identitygovernance-task.md).
 
 ## Properties
