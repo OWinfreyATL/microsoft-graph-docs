@@ -39,7 +39,7 @@ To create workflows, we recommend using one of the [predefined workflow template
 
 Azure AD provides the following six predefined **workflow templates** that define the templates for combinations of [*tasks*](#workflow-tasks) and *execution conditions* that can be part of a workflow. You can use the workflow templates to create your workflows programmatically.
 
-Use the workflowTemplate resource type and its associated methods to identify the preconfigured templates, and the tasks and execution conditions that they support, and copy and use the templates to [create your workflows](#create-and-manage-workflows) programmatically.
+Use the [workflowTemplate resource type](identitygovernance-workflowtemplate.md) and its associated methods to identify the preconfigured templates, and the tasks and execution conditions that they support, and copy and use the templates to [create your workflows](#create-and-manage-workflows) programmatically.
 
 ### General workflow information
 
@@ -51,7 +51,7 @@ Workflow tasks are specific actions that run automatically when a workflow is tr
 
 [!INCLUDE [lifecycle-workflows-tasks-table](../includes/identitygovernance-lifecycleworkflows-tasks-table.md)]
 
-Use the taskDefinition resource type and its associated methods to discover all the predefined tasks that you can configure for your workflow and the settings for the properties The task resource type and its associated GET methods allow you to view the tasks that are configured for your workflow.
+Use the [taskDefinition resource type](identitygovernance-taskdefinition.md) and its associated methods to discover all the predefined tasks that you can configure for your workflow and the settings for the properties. The task resource type and its associated GET methods allow you to view the tasks that are configured for your workflow.
 
 ### Execution conditions
 
@@ -74,7 +74,7 @@ For every workflow task, there's an execution condition that defines the *scope*
 }
 ```
 
-When creating or updating a workflow, use the workflowExecutionConditions resource type to configure the execution conditions. Use this object to also configure a workflow that runs on-demand only.
+When creating or updating a workflow, use the [workflowExecutionConditions resource type](identitygovernance-workflowexecutionconditions.md) to configure the execution conditions. Use this object to also configure a workflow that runs on-demand only.
 
 ### Create and manage workflows
 
@@ -96,23 +96,23 @@ The following JSON object shows an example workflow with the following settings:
 
 While a workflow is in use, you may need to update execution conditions and tasks for a workflow. However, Lifecycle Workflows doesn't allow you to update these properties for an existing workflow.
 
-Instead of creating new workflows, use the workflowVersion resource type and it's associated methods to create and manage a new workflow version, based off an existing workflow object. The workflow version can have similar or a different set of tasks and execution conditions.
+Instead of creating new workflows, use the [workflowVersion resource type](identitygovernance-workflowversion.md) and it's associated methods to create and manage a new workflow version, based off an existing workflow object. The workflow version can have similar or a different set of tasks and execution conditions.
 
 ## Reports
 
 Lifecycle Workflows supports extensive reporting capabilities to track the status of workflow processing at the workflow run-level, task-level, and user-level.
 
-For more information about the reporting capabilities for Lifecycle Workflows, see the overview of Lifecycle Workflows reporting APIs
+For more information about the reporting capabilities for Lifecycle Workflows, see the [overview of Lifecycle Workflows reporting APIs](identitygovernance-lifecycleworkflows-reporting-overview.md).
 
 ## Extensions
 
 Sometimes, the built-in tasks may not be adequate to fulfill all your business scenarios. To extend your lifecycle management scenarios, Lifecycle Workflows supports defining custom tasks to integrate with external systems via Azure Logic Apps. For example, for a "leaver" scenario, you may also want to grant the user's manager access to the user's email account.
 
-Use the customTaskExtension resource type and its associated methods to define the settings for your Azure Logic App.
+Use the [customTaskExtension resource type](identitygovernance-customtaskextension.md) and its associated methods to define the settings for your Azure Logic App.
 
 ## Settings
 
-Each tenant defines a tenant-wide schedule when all scheduled workflows are run. The tenant can adopt the Azure AD-defined default schedule where workflows are run every three hours, or modify the schedule to run between 1 hour and 24 hours.
+Each tenant defines a tenant-wide [schedule](identitygovernance-lifecyclemanagementsettings.md) when all scheduled workflows are run. The tenant can adopt the Azure AD-defined default schedule where workflows are run every three hours, or modify the schedule to run between 1 hour and 24 hours.
 
 ## License checks
 
@@ -124,8 +124,8 @@ The following [Azure AD roles](/azure/active-directory/roles/permissions-referen
 
 | Operation | Application permissions | Required directory role of the calling user |
 |:------------------|:------------|:--------------------------------------------|
-| Read | LifecycleWorkflows.Read.All or LifecycleWorkflows.ReadWrite.All | Global Admin, Global Reader or Lifecycle Workflows Administrator |
-| Create, Update or Delete | LifecycleWorkflows.ReadWrite.All | Global Administrator or Lifecycle Workflows Administrator |
+| Read | LifecycleWorkflows.Read.All or LifecycleWorkflows.ReadWrite.All |Global Reader or Lifecycle Workflows Administrator |
+| Create, Update or Delete | LifecycleWorkflows.ReadWrite.All | Lifecycle Workflows Administrator |
 
 ## See also
 

@@ -79,6 +79,7 @@ Content-length: 631
 
 {
     "workflow":{
+        "category": "joiner",
         "description": "Configure new hire tasks for onboarding employees on their first day",
         "displayName": "Global onboard new hire employee",
         "isEnabled": true,
@@ -134,6 +135,7 @@ Content-Type: application/json
 
 {
     "workflow":{
+        "category": "joiner",
         "description": "Configure new hire tasks for onboarding employees on their first day",
         "displayName": "Global onboard new hire employee",
         "isEnabled": true,
@@ -190,6 +192,7 @@ Content-length: 631
 
 {
     "workflow":{
+        "category": "joiner",
         "description": "Configure new hire tasks for onboarding employees on their first day",
         "displayName": "Global onboard new hire employee",
         "isEnabled": true,
@@ -262,6 +265,7 @@ Content-Type: application/json
 
 {
     "workflow":{
+        "category": "joiner",
         "description": "Configure new hire tasks for onboarding employees on their first day",
         "displayName": "Global onboard new hire employee",
         "isEnabled": true,

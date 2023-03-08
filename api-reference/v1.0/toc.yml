@@ -6053,6 +6053,8 @@ items:
                 items:
                 - name: List user processing results
                   href: api/identitygovernance-workflow-list-userprocessingresults.md
+                - name: Get user processing result
+                  href: api/identitygovernance-userprocessingresult-get.md
                 - name: Get summary
                   href: api/identitygovernance-userprocessingresult-summary.md
                 - name: List task processing results
