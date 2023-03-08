@@ -15,8 +15,6 @@ Represents the pre-configured templates of Lifecycle Workflows that are availabl
 
 Workflow templates allow you to set up workflows based on common lifecycle management scenarios. You can also create custom workflows from the workflow templates to achieve specific situations.
 
-Inherits from [entity](../resources/entity.md).
-
 ## Methods
 
 |Method|Return type|Description|
@@ -32,7 +30,7 @@ Inherits from [entity](../resources/entity.md).
 |description|String|The description of the `workflowTemplate`.|
 |displayName|String|The display name of the `workflowTemplate`.<br><br>Supports `$filter`(`eq`, `ne`) and `$orderby`.|
 |executionConditions|[microsoft.graph.identityGovernance.workflowExecutionConditions](../resources/identitygovernance-workflowexecutionconditions.md)|Conditions describing when to execute the workflow and the criteria to identify in-scope subject set.|
-|id|String|The unique identifier for the `workflowTemplate`. Inherited from [entity](../resources/entity.md).<br><br>Supports `$filter`(`eq`, `ne`) and `$orderby`.|
+|id|String|The unique identifier for the `workflowTemplate`.<br><br>Supports `$filter`(`eq`, `ne`) and `$orderby`.|
 
 ### Supported workflow templates
 
@@ -53,7 +51,6 @@ The following is a JSON representation of the resource.
   "blockType": "resource",
   "keyProperty": "id",
   "@odata.type": "microsoft.graph.identityGovernance.workflowTemplate",
-  "baseType": "microsoft.graph.entity",
   "openType": false
 }
 -->
