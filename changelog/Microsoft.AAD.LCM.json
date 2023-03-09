@@ -445,14 +445,6 @@
         {
           "Id": "c34adaa0-b7de-40d7-92a4-1abd8e37400a",
           "ApiChange": "Resource",
-          "ChangedApiName": "subjectSet",
-          "ChangeType": "Addition",
-          "Description": "Added the [subjectSet](https://learn.microsoft.com/en-us/graph/api/resources/subjectSet?view=graph-rest-1.0) resource type.",
-          "Target": "subjectSet"
-        },
-        {
-          "Id": "c34adaa0-b7de-40d7-92a4-1abd8e37400a",
-          "ApiChange": "Resource",
           "ChangedApiName": "customCalloutExtension",
           "ChangeType": "Addition",
           "Description": "Added the [customCalloutExtension](https://learn.microsoft.com/en-us/graph/api/resources/customCalloutExtension?view=graph-rest-1.0) resource",
