@@ -182,7 +182,7 @@ The following is an example of a request.
 
 <!-- {
   "blockType": "request",
-  "name": "lifecycleworkflows_workflowthis.createnewversion"
+  "name": "lifecycleworkflows_workflowthis.createnewversion_customemail"
 }
 -->
 ``` http
