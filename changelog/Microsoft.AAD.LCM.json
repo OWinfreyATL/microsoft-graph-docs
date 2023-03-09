@@ -365,7 +365,7 @@
           "ApiChange": "Property",
           "ChangedApiName": "emailSettings",
           "ChangeType": "Addition",
-          "Description": "Added the [emailSettings](https://learn.microsoft.com/en-us/graph/api/resources/identityGovernance-lifecycleManagementSettings?view=graph-rest-beta) resource",
+          "Description": "Added the **emailSettings** property to the [lifecycleManagementSettings](https://learn.microsoft.com/en-us/graph/api/resources/identityGovernance-lifecycleManagementSettings?view=graph-rest-beta) resource.",
           "Target": "lifecycleManagementSettings"
         }
       ],
