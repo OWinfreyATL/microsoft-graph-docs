@@ -437,14 +437,6 @@
         {
           "Id": "c34adaa0-b7de-40d7-92a4-1abd8e37400a",
           "ApiChange": "Resource",
-          "ChangedApiName": "keyValuePair",
-          "ChangeType": "Addition",
-          "Description": "Added the [keyValuePair](https://learn.microsoft.com/en-us/graph/api/resources/keyValuePair?view=graph-rest-1.0) resource type.",
-          "Target": "keyValuePair"
-        },
-        {
-          "Id": "c34adaa0-b7de-40d7-92a4-1abd8e37400a",
-          "ApiChange": "Resource",
           "ChangedApiName": "logicAppTriggerEndpointConfiguration",
           "ChangeType": "Addition",
           "Description": "Added the [logicAppTriggerEndpointConfiguration](https://learn.microsoft.com/en-us/graph/api/resources/logicAppTriggerEndpointConfiguration?view=graph-rest-1.0) resource type.",
