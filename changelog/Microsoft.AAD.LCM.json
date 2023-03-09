@@ -357,7 +357,7 @@
           "ApiChange": "Resource",
           "ChangedApiName": "emailSettings",
           "ChangeType": "Addition",
-          "Description": "Added the [emailSettings](https://learn.microsoft.com/en-us/graph/api/resources/emailSettings?view=graph-rest-beta) resource",
+          "Description": "Added the [emailSettings](https://learn.microsoft.com/en-us/graph/api/resources/emailSettings?view=graph-rest-beta) resource.",
           "Target": "emailSettings"
         },
         {
