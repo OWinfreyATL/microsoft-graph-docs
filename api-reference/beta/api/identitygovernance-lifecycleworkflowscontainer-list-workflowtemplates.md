@@ -216,6 +216,59 @@ Content-Type: application/json
             ]
         },
         {
+            "category": "joiner",
+            "description": "Configure onboarding tasks for an employee after their first day of work.",
+            "displayName": "Post-Onboarding of an employee",
+            "id": "dce038a6-482a-46a2-9ee0-675c5e8477b9",
+            "executionConditions": {
+                "@odata.type": "#microsoft.graph.identityGovernance.triggerAndScopeBasedConditions",
+                "scope": {
+                    "@odata.type": "#microsoft.graph.identityGovernance.ruleBasedSubjectSet",
+                    "rule": "department eq 'Marketing'"
+                },
+                "trigger": {
+                    "@odata.type": "#microsoft.graph.identityGovernance.timeBasedAttributeTrigger",
+                    "timeBasedAttribute": "employeeHireDate",
+                    "offsetInDays": 7
+                }
+            },
+            "tasks@odata.context": "https://graph.microsoft.com/beta/$metadata#identityGovernance/lifecycleWorkflows/workflowTemplates('dce038a6-482a-46a2-9ee0-675c5e8477b9')/tasks",
+            "tasks": [
+                {
+                    "category": "joiner,leaver",
+                    "continueOnError": false,
+                    "description": "Add user to selected groups",
+                    "displayName": "Add user to groups",
+                    "executionSequence": 1,
+                    "id": "33350498-4404-487f-94ae-db312e436eda",
+                    "isEnabled": true,
+                    "taskDefinitionId": "22085229-5809-45e8-97fd-270d28d66910",
+                    "arguments": [
+                        {
+                            "name": "groupID",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "category": "joiner,leaver",
+                    "continueOnError": false,
+                    "description": "Add user to selected Teams",
+                    "displayName": "Add user To Teams",
+                    "executionSequence": 2,
+                    "id": "6f7925a5-633d-4cd9-9c4b-8f4b2f040e2b",
+                    "isEnabled": true,
+                    "taskDefinitionId": "e440ed8d-25a1-4618-84ce-091ed5be5594",
+                    "arguments": [
+                        {
+                            "name": "teamID",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "category": "leaver",
             "description": "Execute real-time termination tasks for employees on their last day of work",
             "displayName": "Real-time employee termination",
